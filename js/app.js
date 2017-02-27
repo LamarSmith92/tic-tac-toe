@@ -24,7 +24,6 @@ $(document).ready(function() {
                 boxSelected.addClass('exes');
                 if (checkIfPlayerWon('exes')) {
                     alert('Congrats! Player ' + player + 'wins the game!'); {
-                        location.reload();
                     }
                 } else {
                     player = 2;
@@ -34,7 +33,6 @@ $(document).ready(function() {
                 boxSelected.addClass('ohs');
                 if (checkIfPlayerWon('ohs')) {
                     alert('Congrats! Player ' + player + 'wins the game!'); {
-                        location.reload();
                     }
                 } else {
                     player = 1;
